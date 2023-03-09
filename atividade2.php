@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php
-    $valor = 1;
-    $valor2 = 2;
+    $valor = -1;
+    $valor2 = -30;
 
     if($valor > $valor2)
-    echo $valor . " É maior do que " . $valor2;
+    echo $valor . " é maior do que " . $valor2;
 
     else
     echo $valor2 . " é maior do que  " . $valor;
